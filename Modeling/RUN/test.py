@@ -1,9 +1,6 @@
 from eunjeon import Mecab
-from RNNbased.tokenizing import tokenize
-from RNNbased.padding import pad_sentences
-from RNNbased.cleansing import get_stopwords
-from RNNbased.predicting import convert_sentence, get_model, pred_sentences
-from RNNbased.utils import best_model
+from Models.RNNbased import convert_sentence, get_model, pred_sentences
+from Models.RNNbased import best_model
 import os
 
 # set path
