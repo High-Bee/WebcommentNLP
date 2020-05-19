@@ -1,0 +1,7 @@
+pandas==
+numpy==
+gensim==
+bs4==
+keras==
+selenium==
+logging==
