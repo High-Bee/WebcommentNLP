@@ -29,7 +29,7 @@
 
 ### 2-2. 데이터 수집
 
-<img src="Readme.assets/image-20200519161447259.png" alt="image-20200519161447259" style="zoom:80%;" />
+<img src="Readme.assets/image-20200519161447259.png" alt="image-20200519161447259" style="zoom: 67%;" />
 
 * 데이터 스키마
 
@@ -61,7 +61,7 @@
 > * 형태소 분석기 종류 mecab, okt, kkma, hanannum > mecab 선택
 > * mecab 선택 이유 : 정확도, 속도면 에서 가장 빠름 (약 180만개의 댓글 분석에 속도를 중요시 하였음.)
 
-![image-20200519162337958](Readme.assets/image-20200519162337958.png)
+<img src="Readme.assets/image-20200519162337958.png" alt="image-20200519162337958" style="zoom:67%;" />
 
 #### 2. 긍/부정 사전 제작
 
@@ -77,7 +77,7 @@
 
   2. 긍/부정 라벨링 할 품사 선택 후 분류
 
-     - 품사 종류 : 명사, 부사, 동사, 형용사 등<img src="Readme.assets/image-20200519163702881.png" alt="image-20200519163702881" style="zoom: 67%;" />
+     - 품사 종류 : 명사, 부사, 동사, 형용사 등<img src="Readme.assets/image-20200519163702881.png" alt="image-20200519163702881" style="zoom: 50%;" />
 
   3. 알고리즘 개발 : 빈도 기반의 감성점수로 판단
 
@@ -101,7 +101,7 @@ $$
 
 ​		4.사전 평가 
 
-![image-20200519163930145](Readme.assets/image-20200519163930145.png)
+<img src="Readme.assets/image-20200519163930145.png" alt="image-20200519163930145" style="zoom:67%;" />
 
 ### 2-4. Embedding
 
@@ -109,7 +109,7 @@ $$
 
 * Word2Vec 모델 사용
 
-  ![image-20200519164419956](Readme.assets/image-20200519164419956.png)
+  <img src="Readme.assets/image-20200519164419956.png" alt="image-20200519164419956" style="zoom:67%;" />
 
 
 
@@ -119,7 +119,7 @@ $$
 
 > RNN / BERT 두가지 모델 사용
 
-<img src="Readme.assets/image-20200519164534339.png" alt="image-20200519164534339" style="zoom:80%;" />
+<img src="Readme.assets/image-20200519164534339.png" alt="image-20200519164534339" style="zoom: 67%;" />
 
 * 모델 평가
 
@@ -153,11 +153,11 @@ $$
 
 * 정책의 실효성을 평가하기 위한 프로세스 수립
 
-![image-20200519165643063](Readme.assets/image-20200519165643063.png)
+<img src="Readme.assets/image-20200519165643063.png" alt="image-20200519165643063" style="zoom:67%;" />
 
 1. 실효성 지표 선정
 
-<img src="Readme.assets/image-20200519170648824.png" alt="image-20200519170648824" style="zoom:80%;" />
+<img src="Readme.assets/image-20200519170648824.png" alt="image-20200519170648824" style="zoom: 50%;" />
 
 2. 평가 모델 생성
 
