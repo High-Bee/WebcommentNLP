@@ -12,13 +12,6 @@ h_series = rh_df[rh_df.id == "가정"].news
 m_series = me_df[me_df.id == "임금"].news
 e_series = me_df[me_df.id == "고용"].news
 
-w_series = pre_pro(w_series)
-s_series = pre_pro(s_series)
-r_series = pre_pro(r_series)
-h_series = pre_pro(h_series)
-m_series = pre_pro(m_series)
-e_series = pre_pro(e_series)
-
 # 전처리
 import re
 from tqdm import tqdm_notebook
