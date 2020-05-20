@@ -1,5 +1,4 @@
 #댓글이 있는 기사링크만 가져오기
-
 import time
 from bs4 import BeautifulSoup
 from selenium import webdriver

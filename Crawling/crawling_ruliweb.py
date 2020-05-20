@@ -13,7 +13,6 @@ import csv
 import re
 from datetime import datetime as dtime
 
-# 통합검색 URL : https://bbs.ruliweb.com/search?q=%EC%A3%BC52%EC%8B%9C%EA%B0%84&page=36
 
 # 변수 설정
 QUERY = "주52시간"

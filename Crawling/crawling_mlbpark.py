@@ -121,9 +121,7 @@ def extract_info(url, wait_time=3, delay_time=1):
     post = soup.find('div', {'id': 'contentDetail'}).get_text(strip=True)
 
     view_cnt = int(
-        soup.find('div', {'class': 'text2'}).find_all('span', {'class': 'val'})[1].get_text(strip=True).replace('\n',
-                                                                                                                '').replace(
-            '\r', '').replace(',', ''))
+        soup.find('div', {'class': 'text2'}).find_all('span', {'class': 'val'})[1].get_text(strip=True).replace('\n','').replace('\r', '').replace(',', ''))
 
     recomm_cnt = int(
         soup.find('span', {'id': 'likeCnt'}).get_text(strip=True).replace('\n', '').replace('\r', '').replace(',', ''))

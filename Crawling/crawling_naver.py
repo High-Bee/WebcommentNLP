@@ -26,7 +26,6 @@ search_PAGE = 326
 # driver 설정
 driver = webdriver.Chrome("C:/Users/user/PycharmProjects/Scraping/chromedriver.exe")
 
-
 # 검색결과 내 링크 찾기 : news.naver.com으로 시작하는 모든 링크 반환
 def get_news_links(page_num, link_pattern):
     links = []
