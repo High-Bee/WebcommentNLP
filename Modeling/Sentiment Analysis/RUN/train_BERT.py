@@ -13,6 +13,7 @@ from Models.BERT.masking import create_masks
 from Models.BERT.utils import get_accuracy, format_time
 import random
 import numpy as np
+import os
 
 # 경로 및 변수 설정
 root_path = "C:/Users/user/PycharmProjects/NLP_SentimentAnalysis"
@@ -20,6 +21,7 @@ input_path = f"{root_path}/Input"
 output_path = f"{root_path}/Output"
 TRAIN_PATH = f"{input_path}/train_input.pickle"
 PRED_PATH = f"{input_path}/predict_input.pickle"
+MODEL_PATH = f"{output_path}/models"
 
 BATCH = 32 # 데이터로더 배치
 SEED = 42 # 난수 시드
@@ -194,3 +196,9 @@ for step, batch in enumerate(test_dataloader):
 testSet_accuracy = test_acc / nb_test_steps
 
 print(f" ======== ======== ======== 테스트 정확도: {testSet_accuracy} ======== ======== ======== ")
+
+# 사전훈련 모델 저장
+if not os.path.exists(MODEL_PATH):
+    os.makedirs(MODEL_PATH)
+
+pass
