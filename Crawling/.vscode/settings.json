@@ -1,0 +1,10 @@
+{
+    "prettier.tabWidth": 4,
+    "editor.formatOnSave": true,
+    "json.schemas": [
+        {
+            "fileMatch": ["/myfile"],
+            "url": "schemaURL"
+        }
+    ]
+}
