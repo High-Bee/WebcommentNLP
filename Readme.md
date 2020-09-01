@@ -221,4 +221,4 @@ $$
 >
 > 모델링 : sir950123@gmail.com
 >
-> 감성사전 / 시각화 : 5000roto@naver.com
+> 감성사전 / 시각화 : 5000shpark2@gmail.com
